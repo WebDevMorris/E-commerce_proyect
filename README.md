@@ -15,3 +15,5 @@ E-Shop offers a smooth shopping experience with light/dark mode, easy navigation
 - **CSS**: For styling, with a focus on clean and responsive design.
 - **JavaScript**: For adding interactivity such as light/dark mode toggle, adding items to the cart, and managing navigation.
 - **Optional**: Flask (Python) for backend integration, allowing for handling of user authentication, products, and payment options.
+
+##**Disclaimer**: This website is a demonstration of front-end development skills. It is not a functional e-commerce store and does not actually sell products. The purpose of this project is to showcase design, layout, and interactive features.
