@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger-menu" onclick="toggleMenu()">&#9776;</div>
+            <div class="logo">E-Shop</div>
+            <input type="text" class="search-bar" placeholder="Search for products...">
+            <div class="icons">
+                <div class="mode-toggle" id="modeToggle" onclick="toggleMode()">
+                    <span id="modeIcon">🌙</span>
+                </div>
+                <div class="cart" onclick="location.href='cart.html';">🛒</div>
+                    <span id="cart-count" class="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+    
+    <aside class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </aside>
+    
+    <main>
+        <section class="products">
+            <div class="product">
+                <img src="placeholder.jpg" alt="Product Image">
+                <h3>Product Name</h3>
+                <p>Short product description goes here.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="placeholder.jpg" alt="Product Image">
+                <h3>Product Name</h3>
+                <p>Short product description goes here.</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 E-Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
